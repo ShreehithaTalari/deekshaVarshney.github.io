@@ -1,18 +1,15 @@
 {
-  "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+  "basics":  {
+    "name": "Deeksha Varshney",
+    "label": "Assistant Professor · Computer Science & Engineering",
+    "email": "deeksha.varshney2695@gmail.com",
+    "phone": "+91-8604544582",
+    "url": "https://deekshaVarshney.github.io",
+    "summary": "Assistant Professor at IIT Jodhpur working on Natural Language Processing, Dialogue Systems, Reasoning, Interpretability in LLMs, NLP for Healthcare and Climate, and Multilingual Language Models.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Jodhpur",
+      "region": "Rajasthan",
+      "countryCode": "IN"
     },
     "profiles": [
       {
