@@ -61,15 +61,48 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Indian Institute of Technology Patna",
+      "area": "Computer Science and Engineering",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2018-07",
+      "endDate": "2023-12",
+      "score": "8.78 / 10",
+      "courses": [
+        "Artificial Intelligence",
+        "Natural Language Processing",
+        "Deep Learning",
+        "Machine Learning"
+      ]
+    },
+    {
+      "institution": "Banaras Hindu University",
+      "area": "Computer Science",
+      "studyType": "M.Sc.",
+      "startDate": "2016-07",
+      "endDate": "2018-06",
+      "score": "8.08 / 10"
+    },
+    {
+      "institution": "Banaras Hindu University",
+      "area": "Computer Science",
+      "studyType": "B.Sc.",
+      "startDate": "2013-07",
+      "endDate": "2016-06",
+      "score": "8.82 / 10"
+    },
+    {
+      "institution": "St. Johns School, Varanasi",
+      "studyType": "Intermediate",
+      "startDate": "2011",
+      "endDate": "2013",
+      "score": "86%"
+    },
+    {
+      "institution": "St. Johns School, Varanasi",
+      "studyType": "High School",
+      "startDate": "2010",
+      "endDate": "2011",
+      "score": "85.1%"
     }
   ],
   "awards": [
