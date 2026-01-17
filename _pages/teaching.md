@@ -7,6 +7,8 @@ nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+CSL7610 – Artificial Intelligence
+Ph.D. & M.Tech Programme (July 2025 – December 2025), IIT Jodhpur, India
 
-Organize your courses by years, topics, or universities, however you like!
+AIL7390 – Deep Learning for Natural Language Processing
+Ph.D., M.Tech & B.Tech Programme, IIT Jodhpur, India
