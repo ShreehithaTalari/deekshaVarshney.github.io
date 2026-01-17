@@ -13,9 +13,14 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "deekshaVarshney",
+        "url": "https://github.com/deekshaVarshney"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "deeksha-varshney-5922b57b",
+        "url": "https://www.linkedin.com/in/deeksha-varshney-5922b57b"
       }
     ]
   },
