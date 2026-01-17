@@ -4,71 +4,70 @@
 @string{aps = {American Physical Society,}}
 
 @article{VARSHNEY2023102535,
-title = {Knowledge graph assisted end-to-end medical dialog generation},
-journal = {Artificial Intelligence in Medicine},
-volume = {139},
-pages = {102535},
-year = {2023},
-issn = {0933-3657},
-doi = {https://doi.org/10.1016/j.artmed.2023.102535},
-url = {https://www.sciencedirect.com/science/article/pii/S0933365723000490},
-author = {Deeksha Varshney and Aizan Zafar and Niranshu Kumar Behera and Asif Ekbal},
-keywords = {Medical dialog generation, Knowledge graph, Pretrained language models},
-abstract = {Medical dialog systems have the potential to assist e-medicine in improving access to healthcare services, improving patient treatment quality, and lowering medical expenses. In this research, we describe a knowledge-grounded conversation generation model that demonstrates how large-scale medical information in the form of knowledge graphs can aid in language comprehension and generation in medical dialog systems. Generic responses are often produced by existing generative dialog systems, resulting in monotonous and uninteresting conversations. To solve this problem, we combine various pre-trained language models with a medical knowledge base (UMLS) to generate clinically correct and human-like medical conversations using the recently released MedDialog-EN dataset. The medical-specific knowledge graph contains broadly 3 types of medical-related information, including disease, symptom and laboratory test. We perform reasoning over the retrieved knowledge graph by reading the triples in each graph using MedFact attention, which allows us to use semantic information from the graphs for better response generation. In order to preserve medical information, we employ a policy network, which effectively injects relevant entities associated with each dialog into the response. We also study how transfer learning can significantly improve the performance by utilizing a relatively small corpus, created by extending the recently released CovidDialog dataset, containing the dialogs for diseases that are symptoms of Covid-19. Empirical results on the MedDialog corpus and the extended CovidDialog dataset demonstrate that our proposed model significantly outperforms the state-of-the-art methods in terms of both automatic evaluation and human judgment.}
+  title={Knowledge graph assisted end-to-end medical dialog generation},
+  journal={Artificial Intelligence in Medicine},
+  volume={139},
+  pages={102535},
+  year={2023},
+  issn={0933-3657},
+  doi={https://doi.org/10.1016/j.artmed.2023.102535},
+  url={https://www.sciencedirect.com/science/article/pii/S0933365723000490},
+  author={Deeksha Varshney and Aizan Zafar and Niranshu Kumar Behera and Asif Ekbal},
+  keywords={Medical dialog generation, Knowledge graph, Pretrained language models},
+  abstract={Medical dialog systems have the potential to assist e-medicine in improving access to healthcare services, improving patient treatment quality, and lowering medical expenses. In this research, we describe a knowledge-grounded conversation generation model that demonstrates how large-scale medical information in the form of knowledge graphs can aid in language comprehension and generation in medical dialog systems. Generic responses are often produced by existing generative dialog systems, resulting in monotonous and uninteresting conversations. To solve this problem, we combine various pre-trained language models with a medical knowledge base (UMLS) to generate clinically correct and human-like medical conversations using the recently released MedDialog-EN dataset. The medical-specific knowledge graph contains broadly 3 types of medical-related information, including disease, symptom and laboratory test. We perform reasoning over the retrieved knowledge graph by reading the triples in each graph using MedFact attention, which allows us to use semantic information from the graphs for better response generation. In order to preserve medical information, we employ a policy network, which effectively injects relevant entities associated with each dialog into the response. We also study how transfer learning can significantly improve the performance by utilizing a relatively small corpus, created by extending the recently released CovidDialog dataset, containing the dialogs for diseases that are symptoms of Covid-19. Empirical results on the MedDialog corpus and the extended CovidDialog dataset demonstrate that our proposed model significantly outperforms the state-of-the-art methods in terms of both automatic evaluation and human judgment.}
 }
+
 @article{Varshney2023,
-  author    = {Varshney, Deeksha and Zafar, Aizan and Behera, Niranshu Kumar and Ekbal, Asif},
-  title     = {Knowledge grounded medical dialogue generation using augmented graphs},
-  journal   = {Scientific Reports},
-  year      = {2023},
-  volume    = {13},
-  number    = {1},
-  pages     = {3310},
-  doi       = {10.1038/s41598-023-29213-8},
-  url       = {https://doi.org/10.1038/s41598-023-29213-8},
-  issn      = {2045-2322},
-  month     = {Feb 27},
-  abstract  = {Smart healthcare systems that make use of abundant health data can improve access to healthcare services, reduce medical costs and provide consistently high-quality patient care. Medical dialogue systems that generate medically appropriate and human-like conversations have been developed using various pre-trained language models and a large-scale medical knowledge base based on Unified Medical Language System (UMLS). However, most of the knowledge-grounded dialogue models only use local structure in the observed triples, which suffer from knowledge graph incompleteness and hence cannot incorporate any information from dialogue history while creating ent
-@misc{varshney2022commonsensenamedentityaware,
-      title={Commonsense and Named Entity Aware Knowledge Grounded Dialogue Generation}, 
-      author={Deeksha Varshney and Akshara Prabhakar and Asif Ekbal},
-      year={2022},
-      eprint={2205.13928},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2205.13928}, 
+  author={Varshney, Deeksha and Zafar, Aizan and Behera, Niranshu Kumar and Ekbal, Asif},
+  title={Knowledge grounded medical dialogue generation using augmented graphs},
+  journal={Scientific Reports},
+  year={2023},
+  volume={13},
+  number={1},
+  pages={3310},
+  doi={10.1038/s41598-023-29213-8},
+  url={https://doi.org/10.1038/s41598-023-29213-8},
+  issn={2045-2322},
+  month={Feb 27},
+  abstract={Smart healthcare systems that make use of abundant health data can improve access to healthcare services, reduce medical costs and provide consistently high-quality patient care. Medical dialogue systems that generate medically appropriate and human-like conversations have been developed using various pre-trained language models and a large-scale medical knowledge base based on Unified Medical Language System (UMLS). However, most of the knowledge-grounded dialogue models only use local structure in the observed triples, which suffer from knowledge graph incompleteness and hence cannot incorporate any information from dialogue history while creating entity embeddings.}
 }
+
+@misc{varshney2022commonsensenamedentityaware,
+  title={Commonsense and Named Entity Aware Knowledge Grounded Dialogue Generation}, 
+  author={Deeksha Varshney and Akshara Prabhakar and Asif Ekbal},
+  year={2022},
+  eprint={2205.13928},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2205.13928}
+}
+
 @article{VARSHNEY2024111173,
-title = {Emotion-and-knowledge grounded response generation in an open-domain dialogue setting},
-journal = {Knowledge-Based Systems},
-volume = {284},
-pages = {111173},
-year = {2024},
-issn = {0950-7051},
-doi = {https://doi.org/10.1016/j.knosys.2023.111173},
-url = {https://www.sciencedirect.com/science/article/pii/S0950705123009231},
-author = {Deeksha Varshney and Asif Ekbal and Erik Cambria},
-keywords = {Response generation, Emotion, Knowledge, Transformers},
-abstract = {The neural-based interactive dialogue system focuses on engaging and retaining humans in long-lasting conversations. This has been explored for a variety of goal-oriented dialogue domains, such as education, health care, entertainment, sports, and politics. To develop an understanding and awareness of social and cultural norms, and to address specific social skills, we need to invent strategies for building interactive systems that take into account the user’s emotions and relevant-facts in a multi-turn conversation. In this paper, we propose a new neural generative model that combines step-wise co-attention with a self-attention-based transformer network along with an emotion classifier to jointly control emotion and knowledge transfer during response generation. Quantitative, qualitative, and human evaluation results on the benchmark Topical Chat and the CMU_DoG dataset show that the proposed models can generate natural and coherent sentences, capturing essential facts with considerable improvement over emotional content.}
+  title={Emotion-and-knowledge grounded response generation in an open-domain dialogue setting},
+  journal={Knowledge-Based Systems},
+  volume={284},
+  pages={111173},
+  year={2024},
+  issn={0950-7051},
+  doi={https://doi.org/10.1016/j.knosys.2023.111173},
+  url={https://www.sciencedirect.com/science/article/pii/S0950705123009231},
+  author={Deeksha Varshney and Asif Ekbal and Erik Cambria},
+  keywords={Response generation, Emotion, Knowledge, Transformers},
+  abstract={The neural-based interactive dialogue system focuses on engaging and retaining humans in long-lasting conversations. This has been explored for a variety of goal-oriented dialogue domains, such as education, health care, entertainment, sports, and politics. To develop an understanding and awareness of social and cultural norms, and to address specific social skills, we need to invent strategies for building interactive systems that take into account the user’s emotions and relevant-facts in a multi-turn conversation. In this paper, we propose a new neural generative model that combines step-wise co-attention with a self-attention-based transformer network along with an emotion classifier to jointly control emotion and knowledge transfer during response generation. Quantitative, qualitative, and human evaluation results on the benchmark Topical Chat and the CMU_DoG dataset show that the proposed models can generate natural and coherent sentences, capturing essential facts with considerable improvement over emotional content.}
 }
 
 @inproceedings{varshney-etal-2021-modelling,
-    title = "Modelling Context Emotions using Multi-task Learning for Emotion Controlled Dialog Generation",
-    author = "Varshney, Deeksha  and
-      Ekbal, Asif  and
-      Bhattacharyya, Pushpak",
-    editor = "Merlo, Paola  and
-      Tiedemann, Jorg  and
-      Tsarfaty, Reut",
-    booktitle = "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
-    month = apr,
-    year = "2021",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2021.eacl-main.255/",
-    doi = "10.18653/v1/2021.eacl-main.255",
-    pages = "2919--2931",
-    abstract = "A recent topic of research in natural language generation has been the development of automatic response generation modules that can automatically respond to a user{'}s utterance in an empathetic manner. Previous research has tackled this task using neural generative methods by augmenting emotion classes with the input sequences. However, the outputs by these models may be inconsistent. We employ multi-task learning to predict the emotion label and to generate a viable response for a given utterance using a common encoder with multiple decoders. Our proposed encoder-decoder model consists of a self-attention based encoder and a decoder with dot product attention mechanism to generate response with a specified emotion. We use the focal loss to handle imbalanced data distribution, and utilize the consistency loss to allow coherent decoding by the decoders. Human evaluation reveals that our model produces more emotionally pertinent responses. In addition, our model outperforms multiple strong baselines on automatic evaluation measures such as F1 and BLEU scores, thus resulting in more fluent and adequate responses."
+  title={Modelling Context Emotions using Multi-task Learning for Emotion Controlled Dialog Generation},
+  author={Varshney, Deeksha and Ekbal, Asif and Bhattacharyya, Pushpak},
+  booktitle={Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume},
+  month=apr,
+  year={2021},
+  address={Online},
+  publisher={Association for Computational Linguistics},
+  url={https://aclanthology.org/2021.eacl-main.255/},
+  doi={10.18653/v1/2021.eacl-main.255},
+  pages={2919--2931},
+  abstract={A recent topic of research in natural language generation has been the development of automatic response generation modules that can automatically respond to a user’s utterance in an empathetic manner. Previous research has tackled this task using neural generative methods by augmenting emotion classes with the input sequences. However, the outputs by these models may be inconsistent. We employ multi-task learning to predict the emotion label and to generate a viable response for a given utterance using a common encoder with multiple decoders. Our proposed encoder-decoder model consists of a self-attention based encoder and a decoder with dot product attention mechanism to generate response with a specified emotion. Human evaluation reveals that our model produces more emotionally pertinent responses.}
 }
 
 @INPROCEEDINGS{9533452,
@@ -76,52 +75,11 @@ abstract = {The neural-based interactive dialogue system focuses on engaging and
   booktitle={2021 International Joint Conference on Neural Networks (IJCNN)}, 
   title={Context and Knowledge Enriched Transformer Framework for Emotion Recognition in Conversations}, 
   year={2021},
-  volume={},
-  number={},
   pages={1-8},
   keywords={Emotion recognition;Analytical models;Sentiment analysis;Social networking (online);Bit error rate;Neural networks;Medical services},
-  doi={10.1109/IJCNN52387.2021.9533452}}
+  doi={10.1109/IJCNN52387.2021.9533452}
+}
 
-@InProceedings{10.1007/978-3-030-51310-8_8,
-author="Varshney, Deeksha
-and Ekbal, Asif
-and Nagaraja, Ganesh Prasad
-and Tiwari, Mrigank
-and Gopinath, Abhijith Athreya Mysore
-and Bhattacharyya, Pushpak",
-editor="M{\'e}tais, Elisabeth
-and Meziane, Farid
-and Horacek, Helmut
-and Cimiano, Philipp",
-title="Natural Language Generation Using Transformer Network in an Open-Domain Setting",
-booktitle="Natural Language Processing and Information Systems",
-year="2020",
-publisher="Springer International Publishing",
-address="Cham",
-pages="82--93",
-abstract="Prior works on dialog generation focus on task-oriented setting and utilize multi-turn conversational utterance-response pairs. However, natural language generation (NLG) in the open-domain environment is more challenging. The conversations in an open-domain chit-chat model are mostly single-turn in nature. Current methods used for modeling single-turn conversations often fail to generate contextually relevant responses for a large dataset. In our work, we develop a transformer-based method for natural language generation (NLG) in an open-domain setting. Experiments on the utterance-response pairs show improvement over the baselines, both in terms of quantitative measures like BLEU and ROUGE and human evaluation metrics like fluency and adequacy.",
-isbn="978-3-030-51310-8"
-}
-@article{Varshney2023EmoKbGAN,
-  title={EmoKbGAN: Emotion controlled response generation using Generative Adversarial Network for knowledge grounded conversation},
-  author={Varshney, Deeksha and Ekbal, Asif and Tiwari, M. and Nagaraja, G. P.},
-  journal={PLoS ONE},
-  volume={18},
-  number={2},
-  pages={e0280458},
-  year={2023},
-  doi={10.1371/journal.pone.0280458},
-  url={https://doi.org/10.1371/journal.pone.0280458}
-}
-@misc{ong2025robustesganalysisgreenwashing,
-      title={Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization}, 
-      author={Keane Ong and Rui Mao and Deeksha Varshney and Erik Cambria and Gianmarco Mengaldo},
-      year={2025},
-      eprint={2502.15821},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2502.15821}, 
-}
 @inproceedings{Varshney2022CDialog,
   title={CDialog: A multi-turn covid-19 conversation dataset for entity-aware dialog generation},
   author={Varshney, Deeksha and Zafar, Aizan and Behera, Niranshu and Ekbal, Asif},
@@ -132,6 +90,7 @@ isbn="978-3-030-51310-8"
   publisher={Association for Computational Linguistics},
   url={https://aclanthology.org/2022.emnlp-main.789/}
 }
+
 @article{Zafar2024KIMedQA,
   title={KIMedQA: towards building knowledge-enhanced medical QA models},
   author={Zafar, Aizan and Sahoo, Sovan Kumar and Varshney, Deeksha and Das, Amitava and Ekbal, Asif},
@@ -143,8 +102,9 @@ isbn="978-3-030-51310-8"
   doi={10.1007/s10844-024-00844-1},
   url={https://doi.org/10.1007/s10844-024-00844-1},
   issn={1573-7675},
-  month={Jun},
-  abstract={Medical question-answering systems require the ability to extract accurate, concise, and comprehensive answers. They will better comprehend the complex text and produce helpful answers if they can reason on the explicit constraints described in the question’s textual context and the implicit, pertinent knowledge of the medical world. Integrating Knowledge Graphs (KG) with Language Models (LMs) is a common approach to incorporating structured information sources. However, effectively combining and reasoning over KG representations and language context remains an open question. To address this, we propose the Knowledge Infused Medical Question Answering system (KIMedQA), which employs two techniques viz. rel
+  month={Jun}
+}
+
 @article{Zafar2024AccurateQA,
   title={Are my answers medically accurate? Exploiting medical knowledge graphs for medical question answering},
   author={Zafar, Aizan and Varshney, Deeksha and Sahoo, Sovan Kumar and Das, Amitava and Ekbal, Asif},
@@ -155,28 +115,20 @@ isbn="978-3-030-51310-8"
   pages={2172--2187},
   publisher={Springer Nature BV}
 }
-@misc{ong2025esgsenticnetneurosymbolicknowledgebase,
-      title={ESGSenticNet: A Neurosymbolic Knowledge Base for Corporate Sustainability Analysis}, 
-      author={Keane Ong and Rui Mao and Deeksha Varshney and Frank Xing and Ranjan Satapathy and Johan Sulaeman and Erik Cambria and Gianmarco Mengaldo},
-      year={2025},
-      eprint={2501.15720},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2501.15720}, 
-}
+
 @article{VARSHNEY2024101645,
-title = {Yes, I am afraid of the sharks and also wild lions!: A multitask framework for enhancing dialogue generation via knowledge and emotion grounding},
-journal = {Computer Speech & Language},
-volume = {87},
-pages = {101645},
-year = {2024},
-issn = {0885-2308},
-doi = {https://doi.org/10.1016/j.csl.2024.101645},
-url = {https://www.sciencedirect.com/science/article/pii/S0885230824000287},
-author = {Deeksha Varshney and Asif Ekbal},
-keywords = {Dialogue generation, Emotion, Multitask, Knowledge grounding},
-abstract = {Current end-to-end neural conversation models inherently lack the capability to generate coherently engaging responses. Efforts to boost informativeness have an adversarial effect on emotional and factual accuracy, as validated by several sequence-based models. While these issues can be alleviated by access to emotion labels and background knowledge, there is no guarantee of relevance and informativeness in the generated responses. In real dialogue corpus, informative words like named entities, and words that carry specific emotions can often be infrequent and hard to model, and one primary challenge of the dialogue system is how to promote the model’s capability of generating high-quality responses with those informative words. Furthermore, earlier approaches depended on straightforward concatenation techniques that lacked robust representation capabilities in order to account for human emotions. To address this problem, we propose a novel multitask hierarchical encoder–decoder model, which can enhance the multi-turn dialogue response generation by incorporating external textual knowledge and relevant emotions. Experimental results on a benchmark dataset indicate that our model is superior over competitive baselines concerning both automatic and human evaluation.}
+  title={Yes, I am afraid of the sharks and also wild lions!: A multitask framework for enhancing dialogue generation via knowledge and emotion grounding},
+  journal={Computer Speech & Language},
+  volume={87},
+  pages={101645},
+  year={2024},
+  issn={0885-2308},
+  doi={https://doi.org/10.1016/j.csl.2024.101645},
+  url={https://www.sciencedirect.com/science/article/pii/S0885230824000287},
+  author={Deeksha Varshney and Asif Ekbal},
+  keywords={Dialogue generation, Emotion, Multitask, Knowledge grounding}
 }
+
 @inproceedings{varshney2021knowledge,
   title={Knowledge grounded multimodal dialog generation in task-oriented settings},
   author={Varshney, Deeksha and Ekbal, Asif and Singh, Anushkha},
@@ -184,146 +136,99 @@ abstract = {Current end-to-end neural conversation models inherently lack the ca
   pages={421--431},
   year={2021}
 }
-@inproceedings{ahmad-etal-2019-multi,
-    title = "Multi-linguality helps: Event-Argument Extraction for Disaster Domain in Cross-lingual and Multi-lingual setting",
-    author = "Ahmad, Zishan  and
-      Varshney, Deeksha  and
-      Ekbal, Asif  and
-      Bhattacharyya, Pushpak",
-    editor = "Sharma, Dipti Misra  and
-      Bhattacharya, Pushpak",
-    booktitle = "Proceedings of the 16th International Conference on Natural Language Processing",
-    month = dec,
-    year = "2019",
-    address = "International Institute of Information Technology, Hyderabad, India",
-    publisher = "NLP Association of India",
-    url = "https://aclanthology.org/2019.icon-1.16/",
-    pages = "135--142",
-    abstract = "Automatic extraction of disaster-related events and their arguments from natural language text is vital for building a decision support system for crisis management. Event extraction from various news sources is a well-explored area for this objective. However, extracting events alone, without any context, provides only partial help for this purpose. Extracting related arguments like Time, Place, Casualties, etc., provides a complete picture of the disaster event. In this paper, we create a disaster domain dataset in Hindi by annotating disaster-related event and arguments. We also obtain equivalent datasets for Bengali and English from a collaboration. We build a multi-lingual deep learning model for argument extraction in all the three languages. We also compare our multi-lingual system with a similar baseline mono-lingual system trained for each language separately. It is observed that a single multi-lingual system is able to compensate for lack of training data, by using joint training of dataset from different languages in shared space, thus giving a better overall result."
+
+@article{Varshney2023EmoKbGAN,
+  title={EmoKbGAN: Emotion controlled response generation using Generative Adversarial Network for knowledge grounded conversation},
+  author={Varshney, Deeksha and Ekbal, Asif and Tiwari, M. and Nagaraja, G. P.},
+  journal={PLoS ONE},
+  volume={18},
+  number={2},
+  pages={e0280458},
+  year={2023},
+  doi={10.1371/journal.pone.0280458},
+  url={https://doi.org/10.1371/journal.pone.0280458}
 }
-@INPROCEEDINGS{10917790,
-  author={Ong, Keane and Mao, Rui and Varshney, Deeksha and Satapathy, Ranjan and Cambria, Erik and Mengaldo, Gianmarco},
-  booktitle={2024 IEEE International Conference on Data Mining Workshops (ICDMW)}, 
-  title={Sentiment Analysis on Climate Change for Sustainable Investment}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={479-486},
-  keywords={Climate change;Investment;Sustainable development;Sentiment analysis;Social networking (online);Finance;Green products;Risk management;sustainable investment;green finance;sentiment analysis;climate change;social media;opinion mining},
-  doi={10.1109/ICDMW65004.2024.00067}}
-@InProceedings{10.1007/978-3-031-24337-0_10,
-author="Ahmad, Zishan
-and Varshney, Deeksha
-and Ekbal, Asif
-and Bhattacharyya, Pushpak",
-editor="Gelbukh, Alexander",
-title="Multi-lingual Event Identification in Disaster Domain",
-booktitle="Computational Linguistics and Intelligent  Text Processing",
-year="2023",
-publisher="Springer Nature Switzerland",
-address="Cham",
-pages="129--142",
-abstract="Information extraction in disaster domain is a critical task for effective disaster management. A high quality event detection system is the very first step towards this. Since disaster annotated data-sets are not available in Indian languages, we first create and annotate a dataset in three different languages, namely Hindi, Bengali and English. The data was crawled from the different news websites and annotated with expert annotators using a proper annotation guidelines. The events in the dataset belong to 35 different disaster classes. We then build a deep ensemble architecture based on Convolution Neural Network (CNN) and Bi-directional Long Short Term Memory (Bi-LSTM) network as the base learning models. This model is used to identify event words and phrases along with its class from the input sentence. Since our data is sparse, the model yields a very low F1-score in all the three languages. To mitigate the data sparsity problem we make use of multi-lingual word embedding so that joint training of all the languages could be done. To accommodate joint training we modify our model to contain language-specific layers so that the syntactic differences between the languages can be taken care of by these layers. By using multi-lingual embedding and training the whole dataset on our proposed model, the performance of event detection in each language improves significantly. We also report further analysis of language-wise and class-wise improvements of each language and event classes.",
-isbn="978-3-031-24337-0"
-}
-@inproceedings{priya-etal-2024-knowledge,
-    title = "Knowledge-enhanced Response Generation in Dialogue Systems: Current Advancements and Emerging Horizons",
-    author = "Priya, Priyanshu  and
-      Varshney, Deeksha  and
-      Firdaus, Mauajama  and
-      Ekbal, Asif",
-    editor = "Klinger, Roman  and
-      Okazaki, Naozaki  and
-      Calzolari, Nicoletta  and
-      Kan, Min-Yen",
-    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024): Tutorial Summaries",
-    month = may,
-    year = "2024",
-    address = "Torino, Italia",
-    publisher = "ELRA and ICCL",
-    url = "https://aclanthology.org/2024.lrec-tutorials.13/",
-    pages = "80--87",
-    abstract = "This tutorial provides an in-depth exploration of Knowledge-enhanced Dialogue Systems (KEDS), diving into their foundational aspects, methodologies, advantages, and practical applications. Topics include the distinction between internal and external knowledge integration, diverse methodologies employed in grounding dialogues, and innovative approaches to leveraging knowledge graphs for enhanced conversation quality. Furthermore, the tutorial touches upon the rise of biomedical text mining, the advent of domain-specific language models, and the challenges and strategies specific to medical dialogue generation. The primary objective is to give attendees a comprehensive understanding of KEDS. By delineating the nuances of these systems, the tutorial aims to elucidate their significance, highlight advancements made using deep learning, and pinpoint the current challenges. Special emphasis is placed on showcasing how KEDS can be fine-tuned for domain-specific requirements, with a spotlight on the healthcare sector. The tutorial is crafted for both beginners and intermediate researchers in the dialogue systems domain, with a focus on those keen on advancing research in KEDS. It will also be valuable for practitioners in sectors like healthcare, seeking to integrate advanced dialogue systems."
-}
+
 @misc{varshney2025climaempactdomainalignedsmalllanguage,
-      title={ClimaEmpact: Domain-Aligned Small Language Models and Datasets for Extreme Weather Analytics}, 
-      author={Deeksha Varshney and Keane Ong and Rui Mao and Erik Cambria and Gianmarco Mengaldo},
-      year={2025},
-      eprint={2504.19066},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2504.19066}, 
+  title={ClimaEmpact: Domain-Aligned Small Language Models and Datasets for Extreme Weather Analytics}, 
+  author={Deeksha Varshney and Keane Ong and Rui Mao and Erik Cambria and Gianmarco Mengaldo},
+  year={2025},
+  eprint={2504.19066},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2504.19066}
 }
+
 @misc{ong2025derivingstrategicmarketinsights,
-      title={Deriving Strategic Market Insights with Large Language Models: A Benchmark for Forward Counterfactual Generation}, 
-      author={Keane Ong and Rui Mao and Deeksha Varshney and Paul Pu Liang and Erik Cambria and Gianmarco Mengaldo},
-      year={2025},
-      eprint={2505.19430},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2505.19430}, 
+  title={Deriving Strategic Market Insights with Large Language Models: A Benchmark for Forward Counterfactual Generation}, 
+  author={Keane Ong and Rui Mao and Deeksha Varshney and Paul Pu Liang and Erik Cambria and Gianmarco Mengaldo},
+  year={2025},
+  eprint={2505.19430},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2505.19430}
 }
+
 @misc{varshney2025proteinsecondarystructureprediction,
-      title={Protein Secondary Structure Prediction Using 3D Graphs and Relation-Aware Message Passing Transformers}, 
-      author={Disha Varshney and Samarth Garg and Sarthak Tyagi and Deeksha Varshney and Nayan Deep and Asif Ekbal},
-      year={2025},
-      eprint={2511.13685},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2511.13685}, 
+  title={Protein Secondary Structure Prediction Using 3D Graphs and Relation-Aware Message Passing Transformers}, 
+  author={Disha Varshney and Samarth Garg and Sarthak Tyagi and Deeksha Varshney and Nayan Deep and Asif Ekbal},
+  year={2025},
+  eprint={2511.13685},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2511.13685}
 }
+
 @misc{garg2025conceptbasedinterpretabilitytoxicitydetection,
-      title={Concept-Based Interpretability for Toxicity Detection}, 
-      author={Samarth Garg and Divya Singh and Deeksha Varshney and Mamta},
-      year={2025},
-      eprint={2511.16689},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2511.16689}, 
+  title={Concept-Based Interpretability for Toxicity Detection}, 
+  author={Samarth Garg and Divya Singh and Deeksha Varshney and Mamta},
+  year={2025},
+  eprint={2511.16689},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2511.16689}
 }
+
 @ARTICLE{10910093,
   author={Priya, Priyanshu and Tripathi, Armita Mani and Varshney, Deeksha and Firdaus, Mauajama and Ekbal, Asif},
   journal={IEEE Transactions on Artificial Intelligence}, 
   title={EMPOWER-KARE: Deep Prompt Learning for Knowledge-aware Response Generation in Clinical Counseling and Legal Support Conversations}, 
   year={2025},
-  volume={},
-  number={},
   pages={1-10},
-  keywords={Employee welfare;Law;Artificial intelligence;Oral communication;Depression;Natural language processing;Mental health;Training;Mood;Electronic mail;Dialogue Systems;Clinical Counseling and Legal Support Conversations;Knowledge-awareness;Prompt Learning},
-  doi={10.1109/TAI.2025.3548628}}
+  doi={10.1109/TAI.2025.3548628}
+}
+
 @article{10.1145/3715069,
-author = {Varshney, Deeksha and Behera, Niranshu and Katari, Prajeet and Ekbal, Asif},
-title = {MedProm: Bridging Dialogue Gaps in Healthcare with Knowledge-Enhanced Generative Models},
-year = {2025},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3715069},
-doi = {10.1145/3715069},
-abstract = {In medical dialogue systems, recent advancements underscore the critical role of incorporating relevant medical knowledge to enhance performance. However, existing knowledge bases often lack completeness, posing a challenge in sourcing pertinent information. We present MedProm, a novel generative model tailored for medical dialogue generation to address this gap. Motivated by the need for comprehensive and contextually relevant responses, MedProm leverages state-of-the-art language models such as BioGPT. Our model is designed to integrate extensive medical knowledge into conversations, facilitating effective communication between patients and healthcare providers. At the core of MedProm lies the MediConnect Graph, a meticulously constructed knowledge graph capturing intricate relationships among medical entities extracted from dialogue contexts. By employing a KnowFusion encoder with a pretraining objective and masked multi-head self-attention, MedProm effectively processes the MediConnect graph, enabling precise control over information flow to capture its underlying structure. Furthermore, MedProm incorporates a sophisticated Curriculum Knowledge Decoder, leveraging transformer-based decoding to generate response utterances conditioned on input representations from the KnowFusion Encoder. The training process is guided through curriculum learning, gradually increasing optimization difficulty based on a coherence-based criterion. Experimental results on two datasets demonstrate the efficacy of MedProm in generating accurate and contextually relevant responses compared to state-of-the-art models.},
-note = {Just Accepted},
-journal = {ACM Trans. Comput. Healthcare},
-month = jan,
-keywords = {Medical Dialogue Systems (MDS), Generative Neural Model, MediConnect Graph, KnowFusion Encoder, Curriculum Knowledge Decoder}
+  author={Varshney, Deeksha and Behera, Niranshu and Katari, Prajeet and Ekbal, Asif},
+  title={MedProm: Bridging Dialogue Gaps in Healthcare with Knowledge-Enhanced Generative Models},
+  year={2025},
+  journal={ACM Trans. Comput. Healthcare},
+  month={Jan},
+  url={https://doi.org/10.1145/3715069},
+  doi={10.1145/3715069},
+  note={Just Accepted},
+  keywords={Medical Dialogue Systems (MDS), Generative Neural Model, MediConnect Graph, KnowFusion Encoder, Curriculum Knowledge Decoder}
 }
+
 @article{Varshney2024,
-  author  = {Deeksha Varshney and Anushkha Singh and Asif Ekbal},
-  title   = {Aspect-level sentiment-controlled knowledge grounded multimodal dialog generation using generative models for reviews},
-  journal = {Multimedia Tools and Applications},
-  year    = {2024},
-  volume  = {83},
-  number  = {10},
-  pages   = {29197--29219},
-  doi     = {10.1007/s11042-023-16720-z},
-  url     = {https://doi.org/10.1007/s11042-023-16720-z},
-  abstract= {During a conversation, it is critical for participants to establish what they both agree on, also known as the common ground. Grounding implies recognizing that the listener has understood what the speaker has said, considering several factors. This can be accomplished by basing dialog models on various features like aspects, sentiments, images, and unstructured knowledge documents. The key innovation lies in our novel multi-modal knowledge-grounded context-aware transformer model, which enables a seamless fusion of textual and visual information. We introduce an effective technique for generating reviews based on the user’s aspect and sentiment (i.e., aspect-level sentiment-controllable reviews), which serves as the relevant external knowledge for the dialog systems. Our work highlights the importance of incorporating review expertise in knowledge-based multi-modal dialog generation. We utilize the Knowledge Grounded Multi-Modal Dialog (KGMMD) dataset, which includes dialog utterances accompanied by images, aspects, sentiment, and unstructured knowledge in the form of several long hotel reviews for different hotels mentioned in the dataset. The overall framework consists of a dialog encoder, a review generator, and a response decoder, all of which complement one another by generating appropriate reviews, which eventually assist in generating an adequate response. The proposed model outperforms the baseline models for aspect-level sentiment-controlled knowledge-based multimodal response generation with a significant increase in F1-score (13.3%) and BLEU-4 (5.3%) on the KGMMD dataset.},
-  issn    = {1573-7721}
+  author={Deeksha Varshney and Anushkha Singh and Asif Ekbal},
+  title={Aspect-level sentiment-controlled knowledge grounded multimodal dialog generation using generative models for reviews},
+  journal={Multimedia Tools and Applications},
+  year={2024},
+  volume={83},
+  number={10},
+  pages={29197--29219},
+  doi={10.1007/s11042-023-16720-z},
+  url={https://doi.org/10.1007/s11042-023-16720-z},
+  issn={1573-7721}
 }
+
 @misc{dogra2023distractionfreeembeddingsrobustvqa,
-      title={Distraction-free Embeddings for Robust VQA}, 
-      author={Atharvan Dogra and Deeksha Varshney and Ashwin Kalyan and Ameet Deshpande and Neeraj Kumar},
-      year={2023},
-      eprint={2309.00133},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2309.00133}, 
+  title={Distraction-free Embeddings for Robust VQA}, 
+  author={Atharvan Dogra and Deeksha Varshney and Ashwin Kalyan and Ameet Deshpande and Neeraj Kumar},
+  year={2023},
+  eprint={2309.00133},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2309.00133}
 }
