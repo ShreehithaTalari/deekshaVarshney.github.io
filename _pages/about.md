@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc."
+subtitle: "<a href='#'>School of AI and Data Science</a>. IIT Jodhpur. deeksha@iitj.ac.in. AI for Social Good."
 
 profile:
   align: right
