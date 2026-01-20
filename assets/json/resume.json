@@ -24,7 +24,6 @@
       }
     ]
   },
-
   "work": [
     {
       "name": "IIT Jodhpur",
@@ -48,7 +47,6 @@
       "summary": "Research on uncertainty estimation in Large Language Models under Prof. Yang You."
     }
   ],
-
   "education": [
     {
       "institution": "Indian Institute of Technology Patna",
@@ -95,7 +93,6 @@
       "score": "85.1%"
     }
   ],
-
   "teaching": [
     {
       "institution": "IIT Jodhpur",
@@ -108,7 +105,6 @@
       ]
     }
   ],
-  
   "references": [
     {
       "name": "Dr. Asif Ekbal",
@@ -123,7 +119,6 @@
       "reference": "Co-Founder & CTO, Cognius.ai"
     }
   ],
-
   "volunteer": [
     {
       "organization": "PACLIC 35",
@@ -179,5 +174,5 @@
       "date": "2022",
       "summary": "Position paper titled \"Spoken Dialogue Systems\" accepted at the YRRSDS 2022 Workshop."
     }
-  ],
+  ]
 }
