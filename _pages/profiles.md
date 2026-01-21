@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /people/
-nav: true
 title: people
+nav: true
 nav_order: 7
 ---
 
