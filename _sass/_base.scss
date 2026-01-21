@@ -1497,3 +1497,25 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+.people-list {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.people-list li {
+  margin-bottom: 0.4rem;
+}
+
+.people-feature {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.people-photo {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
