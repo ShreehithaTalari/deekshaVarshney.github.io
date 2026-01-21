@@ -4,7 +4,7 @@ permalink: /people/
 title: people
 description: Our research group members
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 ## Current Students
