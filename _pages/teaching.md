@@ -13,5 +13,5 @@ Ph.D. & M.Tech Programme (July 2025 – December 2025), IIT Jodhpur, India
 AIL7390 – Deep Learning for Natural Language Processing
 Ph.D., M.Tech & B.Tech Programme, IIT Jodhpur, India
 
-AIL7260 - Foundations of Vision and Langauge 
+AIL7260 – Foundations of Vision and Langauge 
 MTech PhD, Btech Programme, IIT Jodhpur, India
