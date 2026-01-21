@@ -17,7 +17,7 @@ nav_order: 6
   </div>
 </div>
 
-<hr>
+---
 
 <ul class="people-list">
   <li><strong>Avni Singh</strong> - <em>IIT Jodhpur, India (MS by Research)</em></li>
