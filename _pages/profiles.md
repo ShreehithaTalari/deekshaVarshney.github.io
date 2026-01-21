@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /profiles/
+permalink: /people/
 ---
 
 <div class="card">
