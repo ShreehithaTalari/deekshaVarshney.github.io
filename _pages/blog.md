@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /research lab/
-title: research lab
+title: Research lab
 nav: true
 nav_order: 1
 pagination:
