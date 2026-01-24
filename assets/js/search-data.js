@@ -436,12 +436,10 @@ ninja.data = [{
             },},{id: "news-our-work-concept-based-interpretability-for-toxicity-detection-is-now-available-on-arxiv-s-garg-d-singh-d-varshney-mamta",
           title: 'Our work “Concept-Based Interpretability for Toxicity Detection” is now available on arXiv. (S....',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-work-protein-secondary-structure-prediction-using-3d-graphs-and-relation-aware-message-passing-transformers-is-now-available-on-arxiv-d-varshney-s-garg-s-tyagi-d-varshney-n-deep-a-ekbal",
+          title: 'Our work “Protein Secondary Structure Prediction Using 3D Graphs and Relation-Aware Message Passing...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-joined-as-assistant-professor-at-the-school-of-artificial-intelligence-and-data-science-saide-indian-institute-of-technology-jodhpur-iit-jodhpur-rajasthan-india",
+          section: "News",},{id: "news-joined-as-assistant-professor-at-the-school-of-artificial-intelligence-and-data-science-saide-indian-institute-of-technology-jodhpur-iit-jodhpur-rajasthan-india",
           title: 'Joined as Assistant Professor at the School of Artificial Intelligence and Data Science...',
           description: "",
           section: "News",},{id: "projects-project-1",
