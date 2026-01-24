@@ -433,7 +433,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-work-climaempact-domain-aligned-small-language-models-and-datasets-for-extreme-weather-analytics-is-now-available-on-arxiv-d-varshney-k-ong-r-mao-e-cambria-g-mengaldo",
+            },},{id: "news-our-paper-towards-robust-esg-analysis-against-greenwashing-risks-aspect-action-analysis-with-cross-category-generalization-has-been-accepted-at-acl-2025-k-ong-r-mao-d-varshney-e-cambria-g-mengaldo",
+          title: 'Our paper “Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category...',
+          description: "",
+          section: "News",},{id: "news-our-work-climaempact-domain-aligned-small-language-models-and-datasets-for-extreme-weather-analytics-is-now-available-on-arxiv-d-varshney-k-ong-r-mao-e-cambria-g-mengaldo",
           title: 'Our work “ClimaEmpact: Domain-Aligned Small Language Models and Datasets for Extreme Weather Analytics”...',
           description: "",
           section: "News",},{id: "news-our-paper-deriving-strategic-market-insights-with-large-language-models-a-benchmark-for-forward-counterfactual-generation-has-been-accepted-at-emnlp-2025-k-ong-r-mao-d-varshney-p-p-liang-e-cambria-g-mengaldo",
