@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Our work "Concept-Based Interpretability for Toxicity Detection" is now available on arXiv.
+(S. Garg, D. Singh, D. Varshney, Mamta)
