@@ -16,5 +16,5 @@ Ph.D., M.Tech & B.Tech Programme, IIT Jodhpur, India
 AIL7260 – Foundations of Vision and Langauge 
 MTech PhD, Btech Programme, IIT Jodhpur, India
 
-Machine learning I 
+Machine learning I – 
 B.S./B.Sc. in Applied AI and Data Science(Online Programme), IIT Jodhpur, India
