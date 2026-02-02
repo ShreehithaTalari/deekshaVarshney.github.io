@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-28'
+  last_updated: '2026-02-02'
 papers:
   a6T1uIUAAAAJ:0EnyYjriUFMC:
     citations: 3
@@ -10,7 +10,7 @@ papers:
     title: Multi-lingual event identification in disaster domain
     year: '2019'
   a6T1uIUAAAAJ:3fE2CSJIrl8C:
-    citations: 10
+    citations: 12
     title: 'Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization'
     year: '2025'
   a6T1uIUAAAAJ:4TOpqqG69KYC:
@@ -58,7 +58,7 @@ papers:
     title: Are my answers medically accurate? Exploiting medical knowledge graphs for medical question answering
     year: '2024'
   a6T1uIUAAAAJ:W7OEmFMy1HYC:
-    citations: 10
+    citations: 11
     title: 'Cdialog: A multi-turn covid-19 conversation dataset for entity-aware dialog generation'
     year: '2022'
   a6T1uIUAAAAJ:WF5omc3nYNoC:
@@ -90,7 +90,7 @@ papers:
     title: 'Multi-linguality helps: Event-argument extraction for disaster domain in cross-lingual and multi-lingual setting'
     year: '2019'
   a6T1uIUAAAAJ:eQOLeE2rZwMC:
-    citations: 39
+    citations: 40
     title: Knowledge grounded medical dialogue generation using augmented graphs
     year: '2023'
   a6T1uIUAAAAJ:hqOjcs7Dif8C:
