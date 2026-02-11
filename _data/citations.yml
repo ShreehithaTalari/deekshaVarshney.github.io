@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-02'
+  last_updated: '2026-02-11'
 papers:
   a6T1uIUAAAAJ:0EnyYjriUFMC:
     citations: 3
@@ -10,7 +10,7 @@ papers:
     title: Multi-lingual event identification in disaster domain
     year: '2019'
   a6T1uIUAAAAJ:3fE2CSJIrl8C:
-    citations: 12
+    citations: 14
     title: 'Towards Robust ESG Analysis Against Greenwashing Risks: Aspect-Action Analysis with Cross-Category Generalization'
     year: '2025'
   a6T1uIUAAAAJ:4TOpqqG69KYC:
@@ -66,7 +66,7 @@ papers:
     title: Knowledge graph assisted end-to-end medical dialog generation
     year: '2023'
   a6T1uIUAAAAJ:YOwf2qJgpHMC:
-    citations: 5
+    citations: 6
     title: 'ESGSenticNet: A neurosymbolic knowledge base for corporate sustainability analysis'
     year: '2025'
   a6T1uIUAAAAJ:YsMSGLbcyi4C:
