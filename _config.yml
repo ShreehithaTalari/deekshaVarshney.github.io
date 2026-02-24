@@ -2,11 +2,16 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: blank
 first_name: Deeksha
 middle_name: ""
 last_name: Varshney
-profile: false #set the profile has blank
+
+profile:
+  align: right
+  image: ""
+  image_circular: false
+  more_info: ""
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
