@@ -56,4 +56,7 @@ scholar_userid: a6T1uIUAAAAJ # your Google Scholar ID
 #logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 #title: Custom Social
 #url: https://www.alberteinstein.com/
-work_url: https://www.iitj.ac.in/People/List?dept=school-of-artificial-intelligence-data-science&c=ce26246f-00c9-4286-bb4c-7f023b4c5460
+custom_social:
+  logo: https://www.iitj.ac.in/sites/default/files/favicon.ico
+  title: IIT Jodhpur
+  url: https://www.iitj.ac.in/People/List?dept=school-of-artificial-intelligence-data-science&c=ce26246f-00c9-4286-bb4c-7f023b4c5460
