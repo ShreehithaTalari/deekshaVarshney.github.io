@@ -32,7 +32,6 @@ nav_order: 7
 - *Krothinyi Medeo*, IIT Jodhpur, India (MSc-M.Tech)
 - *Kolapkar Vipul Kishor*, IIT Jodhpur, India (B.Tech – DC)
 - *Kartik Jain*, IIT Jodhpur, India (B.Tech – DC)
-- *Kolapkar Vipul Kishor*, IIT Jodhpur, India (B.Tech – DC)
 - *Iftikhar*, IIT Jodhpur, India (B.Tech – DC)
 - *Mukkera*, IIT Jodhpur, India (B.Tech – DC)
 - *Rutuja*, IIT Jodhpur, India (B.Tech – DC)
